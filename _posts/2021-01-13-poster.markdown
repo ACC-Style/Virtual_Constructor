@@ -1,5 +1,5 @@
 ---
-title:  "PosterSessions"
+title:  "Poster Sessions"
 date:   2021-01-15 10:14:44 -0500
 categories: icons
 ---
@@ -9,7 +9,7 @@ categories: icons
     <div class="br_1 br_radius br_solid br_black-2 flex flex_column flex_row:md font_ui h:bg_black-2 m-x_n2 relative">
         <div class="flex_none justify_center p-l_4:md p-y_3" style="width:4rem;">
             <div class="flex_none m-t_n5 m_auto m_auto:md self_center text_center" style="width:3rem;">
-                <div class=" flex_shrink relative aspect_1x1 shadow_3 text_center texture_ondemand thumb [ bg-blend_multiply bg_center bg_contain bg_no-repeat  ][ br_2 br_black-3 br_radius br_solid ]">
+                <div class=" flex_shrink relative aspect_1x1 shadow_3 text_center texture_ondemand thumb [ bg-blend_multiply bg_center bg_cover bg_no-repeat bg_primary ][ br_2 br_black-3 br_radius br_solid ]">
                     <div class="absolute b_0 flex h:opacity justify_center l_0 opacity_7 r_0 self_center t_0 text_center w_100"><em class="absolute c_white-9 fa-user-chart fas flex_auto font_2 self_center text_center w_100"></em></div>
                 </div>
             </div>
