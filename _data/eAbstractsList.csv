@@ -1,5 +1,5 @@
-title,pdflink,videolink,top10,title
-This is an altered file,pdf url,video url,TRUE,This is an altered file
-This is a secondary title,pdf url,video url,FALSE,This is a secondary title
-This is a title,pdf url,video url,FALSE,This is a title
-This is a title,pdf url,video url,TRUE,This is a title
+title,pdflink,videolink,top10
+This is an altered file,pdf url,video url,TRUE
+This is a secondary title,pdf url,video url,FALSE
+This is a title,pdf url,video url,FALSE
+This is a title,pdf url,video url,TRUE
