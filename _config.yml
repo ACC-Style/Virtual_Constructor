@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Icon Dictionary
+title: Virtual Conference Pattern Constructor
 email: mwatier@acc.org
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the dictionary of Icons used at the American College of Cardiology.  This document is consitantly updated and is a reference for the UI and Design Teams that work on ACC properties. 
+  This is a quick uitility system used by the American College of Cardiology. 
 baseurl: "/Virtual_Constructor" # the subpath of your site, e.g. /blog
 url: "https://acc-style.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mattwatier
