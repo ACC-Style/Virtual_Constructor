@@ -1,0 +1,7 @@
+<ul class="m-t_n2 ul_none">
+    {% assign credits = credits | split:","%}
+    {% for credit in credits %}
+    <li class="inline-block lh_0 p-l_3">
+        <span class="bg_{{credit | upcase}} br_1 br_black-3 br_circle br_solid inline-block m-r_1" style=" height: 1em; width: 1em;">&nbsp;</span> {{credit | downcase }} </li>
+ {% endfor %}
+</ul>

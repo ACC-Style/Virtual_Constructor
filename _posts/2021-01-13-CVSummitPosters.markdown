@@ -44,14 +44,10 @@ categories: icons
 <a href="{{ abstract.pdflink }}" class="block h:underline uppercase" target="_blank"><em class="far fa-paperclip"></em> Attachments</a>
         </div>
         <div class="flex_grow uppercase text_right">
-            <ul class="m-t_n2 ul_none">
-                <li class="inline-block lh_0 p-l_3">
-                    <span class="bg_CME br_1 br_black-3 br_circle br_solid inline-block m-r_1" style=" height: 1em; width: 1em;">&nbsp;</span> cme </li>
-                <li class="inline-block lh_0 p-l_3">
-                    <span class="bg_CNE br_1 br_black-3 br_circle br_solid inline-block m-r_1" style=" height: 1em; width: 1em;">&nbsp;</span> cne </li>
-                <li class="inline-block lh_0 p-l_3">
-                    <span class="bg_COP br_1 br_black-3 br_circle br_solid inline-block m-r_1" style=" height: 1em; width: 1em;">&nbsp;</span> cop </li>
-            </ul>
+        {% assign credits = item.credits %}
+        {% if credits.size > 0 %}
+        {% include credits.html %}
+        {%  endif %}
         </div>
     </div>
 </article>
