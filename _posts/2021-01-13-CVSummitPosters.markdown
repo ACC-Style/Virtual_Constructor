@@ -10,10 +10,10 @@ categories: icons
 {% assign category = item.category %}
 </div>
 <h2 class='block m-y_4 '>{{ category }} </h2>
-<div class="ul_none grid template-x_20 gap-x_4 gap-y_5">
+<div class="ul_none grid:lg template-x_20:lg gap-x_4 gap-y_5">
 {% endif %}
 {% assign featured = item.featured | downcase %}
-<article  class="c_black m-b_4 m-b_5:md m-t_5 p-t_4 max-w_30">
+<article  class="c_black m-b_4 m-b_5:md m-t_5 p-t_4 ">
     <div class="br_1 br_radius br_solid br_black-2 flex flex_column flex_column:lg flex_row:md font_ui h:bg_black-2 m-x_n2 relative m-t_4" style="height: 100%">  
         <div class="display_none:lg flex_none justify_center p-l_4:md p-y_3" style="width: 4rem">
             {% if featured == "true" %}
