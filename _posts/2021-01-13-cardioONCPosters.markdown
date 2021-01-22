@@ -8,10 +8,10 @@ categories: icons
 <article  class="c_black m-b_4 m-b_5:md m-t_5 p-t_4 max-w_30">
     <div class="br_1 br_radius br_solid br_black-2 flex flex_column flex_column:lg flex_row:md font_ui h:bg_black-2 m-x_n2 relative m-t_4" style="height: 100%">  
         <div class="display_none:lg flex_none justify_center p-l_4:md p-y_3" style="width: 4rem">
-            {% if abstract.top10 == "true" %}
+            {% if abstract.featured  %}
             <div class="absolute t_n3 r_4">
                 <i class="c_highlight-1 fa-bookmark fas font_10 relative text-shadow_black-1 z_5"></i>
-                <span class="absolute font_bold l_0 lh_0 vertical-align_middle font_n2 uppercase m-t_1 m_auto r_0 t_3 text_center z_5"><i class="fas fa-star"></i></span>
+                <span class="absolute font_bold l_0 lh_0 vertical-align_middle font_n2 uppercase m-t_1 m_auto r_0 t_3 text_center z_5"><i class="c_black-8 fa-star fas font_2 text-shadow_white-n1"></i></span>
             </div>
             {% endif %}
             <div class="flex_none m-t_n5 m_auto m_auto:md self_center text_center" style="width: 3rem">
@@ -21,10 +21,10 @@ categories: icons
             </div>
         </div>
         <div class="block:lg display_none m-t_n5 m-x_5 p-x_5 relative">
-            {% if abstract.top10 == "true" %}
+            {% if abstract.featured %}
             <div class="absolute t_n3 r_5 m-r_4">
                 <i class="c_highlight-1 fa-bookmark fas font_10 relative text-shadow_black-1 z_5"></i>
-                <span class="absolute font_bold l_0 lh_0 vertical-align_middle font_n2 uppercase m-t_1 m_auto r_0 t_3 text_center z_5">top<br>10</span>
+                <span class="absolute font_bold l_0 lh_0 vertical-align_middle font_n2 uppercase m-t_1 m_auto r_0 t_3 text_center z_5"><i class="c_black-8 fa-star fas font_2 text-shadow_white-n1"></i></span>
             </div>
             {% endif %}
             <div class="m-t_n5 m_auto m_auto:md self_center text_center">
